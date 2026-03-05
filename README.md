@@ -22,6 +22,6 @@
     - `/products/:id` : PUT request to update one product based on id
     - `/products/:id` : DELETE request to delete one product based on id
 
-7. Start your server by compiling your TypeScript and running `nodemon index.js` if your server filename is index.js
+7. Start your server by compiling your TypeScript and running `nodemon dist/server.js` if your server filename is server.js
 8. Use Postman to test your API routes [https://www.postman.com/]. Create an account and download the software
 9. Once your server and all your routes are working, push your changes and merge from `dev` to `master/main`
