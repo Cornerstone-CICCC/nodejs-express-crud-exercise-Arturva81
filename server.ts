@@ -12,7 +12,6 @@ const PORT = 3000;
 
 app.use(express.json());
 
-// In-memory database for products.
 const products: Product[] = [];
 
 app.get("/products", (_req: Request, res: Response) => {
